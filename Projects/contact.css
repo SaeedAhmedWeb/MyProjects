@@ -1,0 +1,52 @@
+body{
+	background-image: url(niba.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.name{
+	display: flex;
+	justify-content: center;
+	margin-top: 190px;
+}
+@media (max-width: 600px) {
+	.name{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10px;
+		margin-left: 40px;}
+}
+.n{
+	//border:  2px solid orange;
+	border-radius: 15px;
+	height: 480px;
+	width: 320px;
+	padding-top: 10px;
+	padding-left: 15px;
+	margin: 15px;
+	transition-property: width, height, border-radius;
+	transition-duration: 2s;
+	color: white;
+	font-size: 25px;
+	padding-left: 35px;
+	background-image: linear-gradient(orange,yellow,lightgreen,lightblue);
+}
+.n:hover{
+	height: 550px;
+	width: 380px;
+	border-radius: 16%;
+	color: blue;
+	border-radius: 40PX;
+	font-size: 28px;
+}
+img{
+	border-radius: 50%;
+	padding-left: 4px;
+	height: 260px;
+	width: 280px;
+	padding-top: 7px;
+	transform: rotate(0deg);
+}
+img:hover{
+	transform: rotate(360deg);
+	transition-duration: 2s;
+}

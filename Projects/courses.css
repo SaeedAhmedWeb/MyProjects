@@ -1,0 +1,48 @@
+body{
+	background-image: linear-gradient(orange,yellow);
+}
+table{
+	background-image: linear-gradient(skyblue,blue);
+	margin-top: 150px;
+	margin-left: 420px;
+	width: 1100px;
+	height: 600px;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	border: 2px solid white;
+	transition-duration: 3s;
+	border-radius: 15px;
+}
+td,th{
+	border-radius: 15px;
+}
+table:hover{
+	font-size: 45px;
+	color: yellow;
+	width: 1350;
+	height: 750px;
+	border: 3px solid orange;
+	
+}
+@media (max-width: 600px) {
+	table{
+		margin-top: 1px;
+		margin-left: 1px;
+		width: 250px;
+		height: 400px;
+		font-size: 20px;
+		margin-top: 130px;
+		margin-left: 30px;
+	}
+	table:hover{
+	font-size: 24px;
+	color: yellow;
+	width: 250px;
+	height: 650px;
+	border: 3px solid orange;
+	margin-top: 60px;
+	margin-left: 2px;
+	
+}
+}

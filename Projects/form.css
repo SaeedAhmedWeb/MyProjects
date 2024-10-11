@@ -1,0 +1,41 @@
+body{
+	background-image: linear-gradient(pink,red);
+}
+fieldset{
+	border-color:orange;
+	width: 500px;
+	color: yellow;
+	font-size: 30px;
+	margin-top: 110px;
+	margin-left: 450px;
+	padding-left: 15px;
+	border-radius: 15px;
+	transition-duration: 2s;
+	background-image: linear-gradient(green,orange);
+}
+@media (max-width: 600px) {
+	fieldset{
+		margin: 0px;
+		margin-top: 15px;
+		width: 420px;
+		font-size: 26px;
+	}
+}
+button{
+	color: skyblue;
+	background-color: gray;
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+button:hover{
+	font-size: 25px;
+	color: orange;
+	background-color: azure;
+
+}
+input{
+	border-radius: 5px;
+}

@@ -1,0 +1,66 @@
+body{
+	background-color: rgba(0,0,0,.6);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	
+}
+.cont{
+	margin-top: 20px;
+	border-radius: 25px;
+	width: 1200px;
+	height: 280px;
+	font-size: 25PX;
+	background-image: linear-gradient(lightblue,black);
+	display: flex;
+	color: golden;
+	justify-content: flex-start;
+	transition-property: width, height, border-radius, color;
+	transition-duration: 3s;
+}
+.cont:hover{
+	height: 400px;
+	font-size: 35px;
+	border-radius: 40px;
+	color: yellow;
+}
+@media (max-width: 600px) {
+	.cont{
+		margin: 0px;
+		width: 400px;
+		font-size: 12px;
+		margin: 25px;
+	}
+}
+@media (max-width: 600px) {
+	.cont:hover {
+		height: 400px;
+		font-size: 15px;
+		border-radius: 15px;
+		color: yellow;
+	}
+	.name:hover{
+		font-size: 35px;
+	}
+}
+img{
+	height: 175px;
+	width: 200px;
+	padding: 10px;
+	border-radius: 20px;
+}
+p{
+	padding-left: 10px;
+}
+.det{
+	padding-left: 20px;
+	background-image: linear-gradient(lightblue,black);
+	border-radius: 23px;
+}
+.name{
+	font-weight: bold;
+}
